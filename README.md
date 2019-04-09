@@ -3,7 +3,8 @@
 Analysis of 125K+ configurations 
 
  * TUXML-basic.ipynb: learning and some exploration of bugs (out of config_10K.csv, see below)
-  * there is also a part about kernel sizes, but it's out of the scope right now
+   * if you want to process config_50K.csv, just change `TUXML_CSV_FILENAME= './config_bdd10K.csv'`
+   * there is also a part about kernel sizes, but it's out of the scope right now
  * bdd-tuxml-facility: database (e.g., logs) facilities 
 
 excerpt: config_bdd10K.csv 
