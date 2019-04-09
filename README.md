@@ -8,3 +8,6 @@ Analysis of 125K+ configurations
 
 excerpt: config_bdd10K.csv 
 https://filesender.renater.fr/?s=download&token=1e3dfbc4-73a4-90be-49f5-9c8d6da4dce4 
+
+excerpt: config_bdd50K.csv 
+https://filesender.renater.fr/?s=download&token=23444e96-7d15-2ff0-99f6-a14796291ea0
