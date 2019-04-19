@@ -4,8 +4,8 @@ Analysis of 125K+ configurations
 
 ## Learning and querying data 
 
-pre-requisite: download `config_bdd30-100.pkl` here https://github.com/TuxML/tuxml-datasets using [git-lfs](https://git-lfs.github.com/)
- 
+pre-requisite: download `config_bdd30-100.pkl` here https://filesender.renater.fr/?s=download&token=556ae671-4546-493e-f96f-3cd3c1919724# 
+
  * TUXML-analysis.ipynb: learning and some exploration of bugs out of `config_bdd30-100.pkl`
  * bdd-tuxml-facility: database facilities (e.g., logs) typically to analyze configuration (failures)
  
@@ -18,7 +18,7 @@ script to extract configuration data from database (CSV file, only configuration
    * normally you don't need to use it and beware it's bandwith/time consuming. 
    * we use it to extract different CSVs that are then assembled into one 
    
-see also https://github.com/TuxML/tuxml-datasets
+see also https://github.com/TuxML/tuxml-datasets for getting data using [git-lfs](https://git-lfs.github.com/)
 
 ### TUXML-csv-building.ipynb
 
