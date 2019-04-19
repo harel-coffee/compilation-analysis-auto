@@ -166,8 +166,8 @@ def to_csv(From, To):
 
 
 # Change values to append a new range of data from db to the csv
-From = 30000 #100000 #30000 #15000 # 40510 56580 # 
-To = 40000 #104500 #99400 #94390 #88036 #80054 # 78900 # 56593 # 
+From = 10000 #100000 #30000 #15000 # 40510 56580 # 
+To = 15000 #104500 #99400 #94390 #88036 #80054 # 78900 # 56593 # 
 
 subprocess.run("rm config_bdd.csv", shell=True)
 
