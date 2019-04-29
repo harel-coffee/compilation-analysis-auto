@@ -8,6 +8,7 @@ pre-requisite: download `config_bdd30-100.pkl` here https://filesender.renater.f
 
  * TUXML-analysis.ipynb: learning and some exploration of bugs out of `config_bdd30-100.pkl`
  * bdd-tuxml-facility: database facilities (e.g., logs) typically to analyze configuration (failures)
+ * ClusterAnalysis.ipynb: analysis of the log messages based on pre-defined patterns (here pre-requisite is `errlogs.pkl` available here: )
  
 ## Extraction
 
