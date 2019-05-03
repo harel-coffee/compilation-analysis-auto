@@ -4,11 +4,11 @@ Analysis of 125K+ configurations
 
 ## Learning and querying data 
 
-pre-requisite: download `config_bdd30-100.pkl` here https://filesender.renater.fr/?s=download&token=556ae671-4546-493e-f96f-3cd3c1919724# 
+ * ClusterAnalysis.ipynb: cluster analysis and statistical learning about options 
+   * pre-requisite is `errlogs.pkl` available here: https://filesender.renater.fr/?s=download&token=703257a5-0830-8e86-c087-bc6d2025e906 (errorlogs of cids 30K - 100K)
+    * analysis of the log messages based on pre-defined patterns 
+   * pre-requisite is `dataset_after_encoding` available here http://37.187.140.181/tuxml_dataset/ (cids 30K - 100K)
 
- * TUXML-analysis.ipynb: learning and some exploration of bugs out of `config_bdd30-100.pkl`
- * bdd-tuxml-facility: database facilities (e.g., logs) typically to analyze configuration (failures)
- * ClusterAnalysis.ipynb: analysis of the log messages based on pre-defined patterns (here pre-requisite is `errlogs.pkl` available here: https://filesender.renater.fr/?s=download&token=703257a5-0830-8e86-c087-bc6d2025e906)
  
 ## Extraction
 
@@ -28,7 +28,9 @@ script to assemble CSV files into one (aggregation), export using the pickle for
 
 ## deprecated 
 
-* TUXML-basic.ipynb: learning and some exploration of bugs (out of config_10K.csv, see below)
+ * TUXML-analysis.ipynb: learning and some exploration of bugs out of `config_bdd30-100.pkl` pre-requisite: download `config_bdd30-100.pkl` here https://filesender.renater.fr/?s=download&token=556ae671-4546-493e-f96f-3cd3c1919724# 
+ * bdd-tuxml-facility: database facilities (e.g., logs) typically to analyze configuration (failures)
+ * TUXML-basic.ipynb: learning and some exploration of bugs (out of config_10K.csv, see below)
    * if you want to process config_50K.csv, just change `TUXML_CSV_FILENAME= './config_bdd10K.csv'`
    * there is also a part about kernel sizes, but it's out of the scope right now
 excerpt: config_bdd10K.csv 
