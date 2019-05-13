@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<MLXSW_SPECTRUM &le; 1.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_DEVM2>, fillcolor="#e58139ff"] ;
+1 [label=<gini = 0.0<br/>samples = 86173<br/>value = [86173, 0]<br/>class = NOFAILURE_WITH_DEVM2>, fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<NEW_LEDS &le; 0.5<br/>gini = 0.006<br/>samples = 311<br/>value = [310, 1]<br/>class = NOFAILURE_WITH_DEVM2>, fillcolor="#e58139fe"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = DEVM2>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 310<br/>value = [310, 0]<br/>class = NOFAILURE_WITH_DEVM2>, fillcolor="#e58139ff"] ;
+2 -> 4 ;
+}

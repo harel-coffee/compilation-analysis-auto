@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<DRM_VBOXVIDEO &le; 1.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86473, 11]<br/>class = NOFAILURE_WITH_TTM>, fillcolor="#e58139ff"] ;
+1 [label=<gini = 0.0<br/>samples = 78415<br/>value = [78415, 0]<br/>class = NOFAILURE_WITH_TTM>, fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<DRM_TTM &le; 1.0<br/>gini = 0.003<br/>samples = 8069<br/>value = [8058, 11]<br/>class = NOFAILURE_WITH_TTM>, fillcolor="#e58139ff"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<gini = 0.0<br/>samples = 11<br/>value = [0, 11]<br/>class = TTM>, fillcolor="#399de5ff"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 8058<br/>value = [8058, 0]<br/>class = NOFAILURE_WITH_TTM>, fillcolor="#e58139ff"] ;
+2 -> 4 ;
+}

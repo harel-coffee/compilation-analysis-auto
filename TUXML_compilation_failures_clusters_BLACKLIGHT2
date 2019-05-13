@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<VIDEO_SOLO6X10 &le; 1.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
+1 [label=<gini = 0.0<br/>samples = 85159<br/>value = [85159, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<MEMCG_SWAP_ENABLED &le; 0.5<br/>gini = 0.002<br/>samples = 1325<br/>value = [1324, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label=<gini = 0.0<br/>samples = 1290<br/>value = [1290, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label=<MFD_SYSCON &le; 0.5<br/>gini = 0.056<br/>samples = 35<br/>value = [34, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139f8"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = BLACKLIGHT2>, fillcolor="#399de5ff"] ;
+4 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 34<br/>value = [34, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
+4 -> 6 ;
+}

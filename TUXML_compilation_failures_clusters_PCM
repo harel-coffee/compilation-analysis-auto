@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<VIDEO_SAA7134_GO7007 &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_PCM>, fillcolor="#e58139ff"] ;
+1 [label=<SND_SOC_RT5514_SPI &le; 1.5<br/>gini = 0.016<br/>samples = 125<br/>value = [124, 1]<br/>class = NOFAILURE_WITH_PCM>, fillcolor="#e58139fd"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 124<br/>value = [124, 0]<br/>class = NOFAILURE_WITH_PCM>, fillcolor="#e58139ff"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = PCM>, fillcolor="#399de5ff"] ;
+1 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 86359<br/>value = [86359, 0]<br/>class = NOFAILURE_WITH_PCM>, fillcolor="#e58139ff"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<SPI_JCORE &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86482, 2]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+1 [label=<SND_PDAUDIOCF &le; 1.5<br/>gini = 0.002<br/>samples = 1738<br/>value = [1736, 2]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<VIDEO_RCAR_DRIF &le; 1.5<br/>gini = 0.001<br/>samples = 1735<br/>value = [1734, 1]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 1696<br/>value = [1696, 0]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label=<HDM_DIM2 &le; 1.5<br/>gini = 0.05<br/>samples = 39<br/>value = [38, 1]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139f8"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 38<br/>value = [38, 0]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+4 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = DRM_BRIDGE_CLUSTER>, fillcolor="#399de5ff"] ;
+4 -> 6 ;
+7 [label=<HID_THRUSTMASTER &le; 0.5<br/>gini = 0.444<br/>samples = 3<br/>value = [2, 1]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e581397f"] ;
+1 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = DRM_BRIDGE_CLUSTER>, fillcolor="#399de5ff"] ;
+7 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+7 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 84746<br/>value = [84746, 0]<br/>class = NOFAILURE_WITH_DRM_BRIDGE_CLUSTER>, fillcolor="#e58139ff"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

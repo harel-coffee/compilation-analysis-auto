@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<GENERIC_ALLOCATOR &le; 0.5<br/>gini = 0.008<br/>samples = 86484<br/>value = [86151, 333]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139fe"] ;
+1 [label=<DRM_VBOXVIDEO &le; 1.5<br/>gini = 0.128<br/>samples = 4853<br/>value = [4520, 333]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ec"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 4508<br/>value = [4508, 0]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ff"] ;
+1 -> 2 ;
+3 [label=<AIC7XXX_BUILD_FIRMWARE &le; 0.5<br/>gini = 0.067<br/>samples = 345<br/>value = [12, 333]<br/>class = GEN>, fillcolor="#399de5f6"] ;
+1 -> 3 ;
+4 [label=<DRM_TTM &le; 1.0<br/>gini = 0.023<br/>samples = 337<br/>value = [4, 333]<br/>class = GEN>, fillcolor="#399de5fc"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ff"] ;
+4 -> 5 ;
+6 [label=<WANXL_BUILD_FIRMWARE &le; 0.5<br/>gini = 0.012<br/>samples = 335<br/>value = [2, 333]<br/>class = GEN>, fillcolor="#399de5fd"] ;
+4 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 333<br/>value = [0, 333]<br/>class = GEN>, fillcolor="#399de5ff"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ff"] ;
+6 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 8<br/>value = [8, 0]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ff"] ;
+3 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 81631<br/>value = [81631, 0]<br/>class = NOFAILURE_WITH_GEN>, fillcolor="#e58139ff"] ;
+0 -> 10 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

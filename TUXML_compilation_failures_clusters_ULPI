@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<REGMAP_IRQ &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
+1 [label=<USB_F_TCM &le; 0.5<br/>gini = 0.004<br/>samples = 475<br/>value = [474, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139fe"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<HID_KEYTOUCH &le; 1.0<br/>gini = 0.32<br/>samples = 5<br/>value = [4, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139bf"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 4<br/>value = [4, 0]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = ULPI>, fillcolor="#399de5ff"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 470<br/>value = [470, 0]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
+1 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 86009<br/>value = [86009, 0]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

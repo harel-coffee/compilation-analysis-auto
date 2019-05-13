@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<BACKLIGHT_CLASS_DEVICE &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86471, 13]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+1 [label=<DRM_I915 &le; 1.5<br/>gini = 0.002<br/>samples = 10672<br/>value = [10660, 12]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<DRM_SAVAGE &le; 1.5<br/>gini = 0.0<br/>samples = 10662<br/>value = [10660, 2]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 10655<br/>value = [10655, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+2 -> 3 ;
+4 [label=<CPU_FREQ_GOV_COMMON &le; 0.5<br/>gini = 0.408<br/>samples = 7<br/>value = [5, 2]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e5813999"] ;
+2 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 5<br/>value = [5, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+4 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 2<br/>value = [0, 2]<br/>class = BLACKLIGHT>, fillcolor="#399de5ff"] ;
+4 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 10<br/>value = [0, 10]<br/>class = BLACKLIGHT>, fillcolor="#399de5ff"] ;
+1 -> 7 ;
+8 [label=<NET_ACT_CONNMARK &le; 1.5<br/>gini = 0.0<br/>samples = 75812<br/>value = [75811, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<gini = 0.0<br/>samples = 75614<br/>value = [75614, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+8 -> 9 ;
+10 [label=<DRM_MEDFIELD &le; 0.5<br/>gini = 0.01<br/>samples = 198<br/>value = [197, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139fe"] ;
+8 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 192<br/>value = [192, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+10 -> 11 ;
+12 [label=<RMI4_F11 &le; 0.5<br/>gini = 0.278<br/>samples = 6<br/>value = [5, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139cc"] ;
+10 -> 12 ;
+13 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = BLACKLIGHT>, fillcolor="#399de5ff"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 5<br/>value = [5, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT>, fillcolor="#e58139ff"] ;
+12 -> 14 ;
+}
