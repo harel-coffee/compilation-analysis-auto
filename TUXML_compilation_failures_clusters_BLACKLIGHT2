@@ -8,7 +8,7 @@ edge [fontname=helvetica] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 3 [label=<gini = 0.0<br/>samples = 1290<br/>value = [1290, 0]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139ff"] ;
 2 -> 3 ;
-4 [label=<MFD_SYSCON &le; 0.5<br/>gini = 0.056<br/>samples = 35<br/>value = [34, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139f8"] ;
+4 [label=<I2C_MUX &le; 1.5<br/>gini = 0.056<br/>samples = 35<br/>value = [34, 1]<br/>class = NOFAILURE_WITH_BLACKLIGHT2>, fillcolor="#e58139f8"] ;
 2 -> 4 ;
 5 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = BLACKLIGHT2>, fillcolor="#399de5ff"] ;
 4 -> 5 ;

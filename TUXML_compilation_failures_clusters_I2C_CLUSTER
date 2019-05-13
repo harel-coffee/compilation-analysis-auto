@@ -2,7 +2,7 @@ digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
 0 [label=<VIDEO_ATOMISP &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_I2C_CLUSTER>, fillcolor="#e58139ff"] ;
-1 [label=<EXTRA_FIRMWARE &le; 532.5<br/>gini = 0.019<br/>samples = 106<br/>value = [105, 1]<br/>class = NOFAILURE_WITH_I2C_CLUSTER>, fillcolor="#e58139fd"] ;
+1 [label=<FW_LOADER_USER_HELPER &le; 0.5<br/>gini = 0.019<br/>samples = 106<br/>value = [105, 1]<br/>class = NOFAILURE_WITH_I2C_CLUSTER>, fillcolor="#e58139fd"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = I2C_CLUSTER>, fillcolor="#399de5ff"] ;
 1 -> 2 ;

@@ -4,7 +4,7 @@ edge [fontname=helvetica] ;
 0 [label=<REGMAP_IRQ &le; 0.5<br/>gini = 0.0<br/>samples = 86484<br/>value = [86483, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
 1 [label=<USB_F_TCM &le; 0.5<br/>gini = 0.004<br/>samples = 475<br/>value = [474, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139fe"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<HID_KEYTOUCH &le; 1.0<br/>gini = 0.32<br/>samples = 5<br/>value = [4, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139bf"] ;
+2 [label=<RESET_TI_SYSCON &le; 0.5<br/>gini = 0.32<br/>samples = 5<br/>value = [4, 1]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139bf"] ;
 1 -> 2 ;
 3 [label=<gini = 0.0<br/>samples = 4<br/>value = [4, 0]<br/>class = NOFAILURE_WITH_ULPI>, fillcolor="#e58139ff"] ;
 2 -> 3 ;
