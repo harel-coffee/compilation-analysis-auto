@@ -1,0 +1,24 @@
+,cluster,error message,nb_failures,percentage,bug (faulty option),Bug?,Fix,Github issue,Note
+0,BLACKLIGHT,undefined reference to `backlight_device,15,0.41,BACKLIGHT_CLASS_DEVICE & DRM_I915 | DRM_SAVAGE        ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/148,
+1,BLACKLIGHT2,error: ‘intel_backlight_device_register’,1,0.03,VIDEO_SOLO6X10,Linux,source code,https://github.com/TuxML/ProjetIrma/issues/148,
+2,CONFIG_NLS_DEFAULT,CONFIG_NLS_DEFAULT,6,0.17,NLS,Linux,source code,https://github.com/TuxML/ProjetIrma/issues/152,
+3,CRC32_CLUSTER,undefined reference to `crc32,2,0.06,CRC32 & VIDEO,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/143,failures are dissimilar
+4,V4L2,undefined reference to `v4l2,19,0.52,VIDEO_MUX & VIDEO_V4L2 ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/141,
+5,OVERFLOW2,__read_overflow2,83,2.29,FORTIFY_SOURCE & UBSAN_SANITIZE_ALL & INFINIBAND_ADDR_TRANS & IPV6 & (UBSAN_NULL | UBSAN_ALIGNMENT),Linux,source code,https://github.com/TuxML/ProjetIrma/issues/147,
+6,ULPI,undefined reference to `ulpi,1,0.03,USB_F_TCM,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/150,
+7,PCM,undefined reference to `atmel_pcm_dma_platform,1,0.03,VIDEO_SAA7134_GO7007 & SND_SOC_RT5514_SPI ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/149,
+8,TTM,undefined reference to `ttm,13,0.36,DRM_VBOXVIDEO & DRM_TTM,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/153,
+9,AS68K,as68k: not found,476,13.15,WANXL_BUILD_FIRMWARE,TUXML/Linux,missing tools / Kconfig documentation,https://github.com/TuxML/ProjetIrma/issues/137,
+10,GEN,undefined reference to `gen_pool,367,10.14,DRM_VBOXVIDEO & GENERIC_ALLOCATOR,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/99,
+11,AIC7XXX,[drivers/scsi/aic7xxx/aicasm/aicasm] Error 2,161,4.45,AIC7XXX_BUILD_FIRMWARE | AIC79XX_BUILD_FIRMWARE,TUXML/Linux,missing tools / Kconfig documentation,https://github.com/TuxML/ProjetIrma/issues/164,
+12,AICDB,aicdb.h: No such file or directory,2464,68.05,AIC7XXX_BUILD_FIRMWARE | AIC79XX_BUILD_FIRMWARE,TUXML/Linux,missing tools / Kconfig documentation,https://github.com/TuxML/ProjetIrma/issues/164,
+13,DRM_BRIDGE_CLUSTER,undefined reference to `drm_panel_bridge_add,3,0.08,SPI_JCORE,Linux,source code ,https://github.com/TuxML/ProjetIrma/issues/154,
+14,PINCTRL_CLUSTER,[drivers/pinctrl/pinctrl-mcp23s08.o] Error,3,0.08,GPIOLIB ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/155,
+15,BTBCM,undefined reference to `btbcm_set_bdaddr,2,0.06,BT_HCIUART_H4,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/156,"couldn't found a good explanation here (""BT_HCIUART_SERDEV 
+BT_HCIUART_BCM 
+SERIAL_DEV_BUS 
+BT_HCIUART_NOKIA"")"
+16,BPFFANCY,bpf-fancy,0,0,NA,TUXML,missing tool and replication,,
+17,DEVM,undefined reference to `__devm_regmap,2,0.06,REGMAP_MMIO ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/160,
+18,I2C_CLUSTER,error: implicit declaration of function ‘i2c_get_adapter’,1,0.03,VIDEO_ATOMISP,Linux,source code and Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/162,
+19,DEVM2,undefined reference to `devm_of_led,1,0.03,NEW_LEDS ,Linux,Kconfig dependency,https://github.com/TuxML/ProjetIrma/issues/157,LEDS_CLASS
