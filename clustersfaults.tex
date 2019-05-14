@@ -1,25 +1,25 @@
 \begin{tabular}{llrrlll}
 \toprule
-            cluster &                                      error message &  nb\_failures &  percentage &                                bug (faulty option) &         Bug? &                                    Fix \\
+            cluster &                                      error message &  nb\_failures &  percentage &                                bug (faulty option) &   Bug? &                               Fix \\
 \midrule
-              AICDB &                 aicdb.h: No such file or directory &         2464 &       68.05 &    AIC7XXX\_BUILD\_FIRMWARE | AIC79XX\_BUILD\_FIRMWARE &  TUXML/Linux &  missing tools / Kconfig documentation \\
-              AS68K &                                   as68k: not found &          476 &       13.15 &                               WANXL\_BUILD\_FIRMWARE &  TUXML/Linux &  missing tools / Kconfig documentation \\
-                GEN &                   undefined reference to `gen\_pool &          367 &       10.14 &                  DRM\_VBOXVIDEO \& GENERIC\_ALLOCATOR &        Linux &                     Kconfig dependency \\
-            AIC7XXX &       [drivers/scsi/aic7xxx/aicasm/aicasm] Error 2 &          161 &        4.45 &    AIC7XXX\_BUILD\_FIRMWARE | AIC79XX\_BUILD\_FIRMWARE &  TUXML/Linux &  missing tools / Kconfig documentation \\
-          OVERFLOW2 &                                   \_\_read\_overflow2 &           83 &        2.29 &  FORTIFY\_SOURCE \& UBSAN\_SANITIZE\_ALL \& INFINIBA... &        Linux &                            source code \\
-               V4L2 &                       undefined reference to `v4l2 &           19 &        0.52 &                            VIDEO\_MUX \& VIDEO\_V4L2  &        Linux &                     Kconfig dependency \\
-         BLACKLIGHT &           undefined reference to `backlight\_device &           15 &        0.41 &  BACKLIGHT\_CLASS\_DEVICE \& DRM\_I915 | DRM\_SAVAGE... &        Linux &                     Kconfig dependency \\
-                TTM &                        undefined reference to `ttm &           13 &        0.36 &                            DRM\_VBOXVIDEO \& DRM\_TTM &        Linux &                     Kconfig dependency \\
- CONFIG\_NLS\_DEFAULT &                                 CONFIG\_NLS\_DEFAULT &            6 &        0.17 &                                                NLS &        Linux &                            source code \\
- DRM\_BRIDGE\_CLUSTER &       undefined reference to `drm\_panel\_bridge\_add &            3 &        0.08 &                                          SPI\_JCORE &        Linux &                           source code  \\
-    PINCTRL\_CLUSTER &         [drivers/pinctrl/pinctrl-mcp23s08.o] Error &            3 &        0.08 &                                           GPIOLIB  &        Linux &                     Kconfig dependency \\
-      CRC32\_CLUSTER &                      undefined reference to `crc32 &            2 &        0.06 &                                      CRC32 \& VIDEO &        Linux &                     Kconfig dependency \\
-              BTBCM &           undefined reference to `btbcm\_set\_bdaddr &            2 &        0.06 &                                      BT\_HCIUART\_H4 &        Linux &                     Kconfig dependency \\
-               DEVM &              undefined reference to `\_\_devm\_regmap &            2 &        0.06 &                                       REGMAP\_MMIO  &        Linux &                     Kconfig dependency \\
-                PCM &     undefined reference to `atmel\_pcm\_dma\_platform &            1 &        0.03 &         VIDEO\_SAA7134\_GO7007 \& SND\_SOC\_RT5514\_SPI  &        Linux &                     Kconfig dependency \\
-               ULPI &                       undefined reference to `ulpi &            1 &        0.03 &                                          USB\_F\_TCM &        Linux &                     Kconfig dependency \\
-        BLACKLIGHT2 &           error: ‘intel\_backlight\_device\_register’ &            1 &        0.03 &                                     VIDEO\_SOLO6X10 &        Linux &                            source code \\
-        I2C\_CLUSTER &  error: implicit declaration of function ‘i2c\_g... &            1 &        0.03 &                                      VIDEO\_ATOMISP &        Linux &     source code and Kconfig dependency \\
-              DEVM2 &                undefined reference to `devm\_of\_led &            1 &        0.03 &                                          NEW\_LEDS  &        Linux &                     Kconfig dependency \\
+              AICDB &                 aicdb.h: No such file or directory &         2464 &       68.05 &    AIC7XXX\_BUILD\_FIRMWARE | AIC79XX\_BUILD\_FIRMWARE &  TUXML &      missing tools / Kconfig doc. \\
+              AS68K &                                   as68k: not found &          476 &       13.15 &                               WANXL\_BUILD\_FIRMWARE &  TUXML &      missing tools / Kconfig doc. \\
+                GEN &                   undefined reference to `gen\_pool &          367 &       10.14 &                  DRM\_VBOXVIDEO \& GENERIC\_ALLOCATOR &  Linux &                Kconfig dependency \\
+            AIC7XXX &       [drivers/scsi/aic7xxx/aicasm/aicasm] Error 2 &          161 &        4.45 &    AIC7XXX\_BUILD\_FIRMWARE | AIC79XX\_BUILD\_FIRMWARE &  TUXML &      missing tools / Kconfig doc. \\
+          OVERFLOW2 &                                   \_\_read\_overflow2 &           83 &        2.29 &  FORTIFY\_SOURCE \& UBSAN\_SANITIZE\_ALL \& INFINIBA... &  Linux &                       source code \\
+               V4L2 &                       undefined reference to `v4l2 &           19 &        0.52 &                            VIDEO\_MUX \& VIDEO\_V4L2  &  Linux &                Kconfig dependency \\
+         BLACKLIGHT &           undefined reference to `backlight\_device &           15 &        0.41 &  BACKLIGHT\_CLASS\_DEVICE \& DRM\_I915 | DRM\_SAVAGE... &  Linux &                Kconfig dependency \\
+                TTM &                        undefined reference to `ttm &           13 &        0.36 &                            DRM\_VBOXVIDEO \& DRM\_TTM &  Linux &                Kconfig dependency \\
+ CONFIG\_NLS\_DEFAULT &                                 CONFIG\_NLS\_DEFAULT &            6 &        0.17 &                                                NLS &  Linux &                       source code \\
+ DRM\_BRIDGE\_CLUSTER &       undefined reference to `drm\_panel\_bridge\_add &            3 &        0.08 &                                          SPI\_JCORE &  Linux &                      source code  \\
+    PINCTRL\_CLUSTER &         [drivers/pinctrl/pinctrl-mcp23s08.o] Error &            3 &        0.08 &                                           GPIOLIB  &  Linux &                Kconfig dependency \\
+      CRC32\_CLUSTER &                      undefined reference to `crc32 &            2 &        0.06 &                                      CRC32 \& VIDEO &  Linux &                Kconfig dependency \\
+              BTBCM &           undefined reference to `btbcm\_set\_bdaddr &            2 &        0.06 &                                      BT\_HCIUART\_H4 &  Linux &                Kconfig dependency \\
+               DEVM &              undefined reference to `\_\_devm\_regmap &            2 &        0.06 &                                       REGMAP\_MMIO  &  Linux &                Kconfig dependency \\
+                PCM &     undefined reference to `atmel\_pcm\_dma\_platform &            1 &        0.03 &         VIDEO\_SAA7134\_GO7007 \& SND\_SOC\_RT5514\_SPI  &  Linux &                Kconfig dependency \\
+               ULPI &                       undefined reference to `ulpi &            1 &        0.03 &                                          USB\_F\_TCM &  Linux &                Kconfig dependency \\
+        BLACKLIGHT2 &           error: ‘intel\_backlight\_device\_register’ &            1 &        0.03 &                                     VIDEO\_SOLO6X10 &  Linux &                       source code \\
+        I2C\_CLUSTER &  error: implicit declaration of function ‘i2c\_g... &            1 &        0.03 &                                      VIDEO\_ATOMISP &  Linux &  source code + Kconfig dependency \\
+              DEVM2 &                undefined reference to `devm\_of\_led &            1 &        0.03 &                                          NEW\_LEDS  &  Linux &                Kconfig dependency \\
 \bottomrule
 \end{tabular}
