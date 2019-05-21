@@ -5,13 +5,13 @@ Analysis of 95K+ configurations of the Linux kernel
 ## Learning and querying data 
 
  * pre-requisite is:
-  * `errlogs.pkl` (build error logs from cid=30000 to cid=100000, only for build failures: a few gigabytes)
-  * `errlogs-100000-end.csv` (build error logs from cid=100000 to cid=127000, only for build failures: a few gigabytes)
-  * `dataset_encoded.csv` (configuration data from cid=30000 to cid=127000, each row is a configuration with build status and options) 
+   * `errlogs.pkl` (build error logs from cid=30000 to cid=100000, only for build failures: a few gigabytes)
+   * `errlogs-100000-end.csv` (build error logs from cid=100000 to cid=127000, only for build failures: a few gigabytes)
+   * `dataset_encoded.csv` (configuration data from cid=30000 to cid=127000, each row is a configuration with build status and options) 
  * ClusterAnalysis.ipynb: cluster analysis and statistical learning about options 
  * TUXML*.ipynb
-  * sensitivity analysis of decision tree and rules extraction facilitiy 
-  * clustering attempts 
+   * sensitivity analysis of decision tree and rules extraction facilitiy 
+   * clustering attempts 
  * pdf files are generated out of notebook scripts, we push them for convenience/reviewing  
  
  
